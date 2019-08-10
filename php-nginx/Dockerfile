@@ -43,4 +43,5 @@ EXPOSE 80
 
 #install php
 
-RUN yum install -y php72w-devel php72w-openssl php72w-gd php72w-mbstring php72w-mysqli  php72w-fpm  php72w-bcmath
+#laravel php72w-bcmath   php72w-xmlrpc  php72w-xml
+RUN yum install -y php72w-devel php72w-openssl php72w-gd php72w-mbstring php72w-mysqli  php72w-fpm  php72w-bcmath    php72w-xmlrpc  php72w-xml
